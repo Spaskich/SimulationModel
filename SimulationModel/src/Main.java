@@ -17,8 +17,8 @@ public class Main {
         agentsQueue1.scheduleNextEvent();
         agentsQueue2.scheduleNextEvent();
 
-        System.out.println(agentsQueue1);
-        System.out.println(agentsQueue2);
+//        System.out.println(agentsQueue1);
+//        System.out.println(agentsQueue2);
 
         for (int i = Constants.WORK_DAY_START; i <= Constants.WORK_DAY_END; i++) {
 
@@ -50,7 +50,7 @@ public class Main {
 
 
 
-        System.out.println(agentsQueue1.getAllTimeLength());
+//        System.out.println(agentsQueue1.getAllTimeLength());
         System.out.printf("Average Q1 Length: %.2f people/hour.%n", (double)lengthsQ1 / (Constants.SIMULATION_TIME / 60));
         System.out.printf("Average Q2 Length: %.2f people/hour.%n", (double)lengthsQ2 / (Constants.SIMULATION_TIME / 60));
 

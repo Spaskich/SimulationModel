@@ -98,7 +98,7 @@ public class AgentsQueue {
 
     private void resignAgent(Agent agent) {
         this.agents.remove(agent);
-        System.out.println("resigned");
+//        System.out.println("resigned");
 
         this.resignedAgents++;
     }
